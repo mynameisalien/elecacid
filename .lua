@@ -9,7 +9,7 @@ Setup = {
         }
     },
     ['Panic % Health'] = {40, 45},
-    ['Chatting'] = {'add thienthanbansungnuoc now', 'gg ', 'dm mynameisalien2_  on dc to new friends'},
+    ['Chatting'] = {'add thienthanbansungnuoc now', 'gg ', 'ez ez ez no skill?'},
     ['Lock Cam'] = false,
     ['Hop Region'] = 'Singapore',
     ['Random Y Tween'] = false,
