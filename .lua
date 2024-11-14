@@ -56,7 +56,7 @@ Skills = {
         ['F'] = {true, 0, 0}
     },
     ['Sword'] = {
-        ['Enabled'] = {false, false},
+        ['Enabled'] = {true, true},
         ['Z'] = {true, 0.5, 0}, 
         ['X'] = {true, 0, 0}, 
     },
