@@ -1,5 +1,5 @@
 Setup = {
-    ['PC-er'] = false,
+    ['PC-er'] = true,
     ['Team'] = 'Pirates',
     ['Auto Team'] = {
         ['Enabled'] = false,
@@ -9,7 +9,7 @@ Setup = {
         }
     },
     ['Panic % Health'] = {40, 45},
-    ['Chatting'] = {'add thienthanbansungnuoc now', 'gg ', 'ez ez ez no skill?'},
+    ['Chatting'] = {},
     ['Lock Cam'] = false,
     ['Hop Region'] = 'Singapore',
     ['Random Y Tween'] = false,
@@ -18,12 +18,12 @@ Setup = {
 
 Hunter = {
     ['Ignore'] = {
-        ['Fruit'] = {  
+        ['Fruit'] = { 
             'Portal-Portal',
             'Kitsune-Kitsune',
             'Meme-Meme'
         },
-        ['Timer'] = 60,
+        ['Timer'] = 72,
         ['V4'] = true
     },
     ['Comeback On Sus Kill'] = true,
@@ -43,7 +43,7 @@ Booster = {
 Skills = {
     ['Melee'] = {
         ['Enabled'] = {true, true},
-        ['Z'] = {true, 1.5, 0}, 
+        ['Z'] = {true, 0, 0}, 
         ['X'] = {true, 0, 0}, 
         ['C'] = {true, 0, 0}
     },
@@ -52,11 +52,11 @@ Skills = {
         ['Z'] = {true, 0, 0}, 
         ['X'] = {true, 0, 0}, 
         ['C'] = {true, 0, 0},
-        ['V'] = {false, 0, 0},
+        ['V'] = {true, 0, 0},
         ['F'] = {true, 0, 0}
     },
     ['Sword'] = {
-        ['Enabled'] = {true, true},
+        ['Enabled'] = {false, false},
         ['Z'] = {true, 0.5, 0}, 
         ['X'] = {true, 0, 0}, 
     },
@@ -70,10 +70,10 @@ Skills = {
 Macro = {
     ['Enabled'] = true,
     ['Skills'] = {
-        [1] = {'Melee', {'Z'}},
-        [2] = {'Gun', {'Z'}},
-        [3] = {'Melee', {'C'}},
-        [4] = {'Gun', {'X'}},
+        [1] = {'Melee', {'C'}},
+        [2] = {'Blox Fruit', {'V', 'C'}},
+        [3] = {'Melee', {'Z'}},
+        [4] = {'Blox Fruit', {'X', 'Z', 'F'}},
         [5] = {'Melee', {'X'}}
     }
 }
@@ -82,7 +82,7 @@ Counter = {
     ['Enabled'] = true,
     ['Webhook'] = {
         ['Enabled'] = true,
-        ['Url'] = 'https://discord.com/api/webhooks/1297206736758771853/U31LkDSSW4iKmjY91FM8jsJigTeTjr6blLDVJJASzUsNGujyiqs9Vk0ThFfRZ80G5J4T'
+        ['Url'] = ''
     },
     ['Theme'] = {
         ['Character'] = 'Yae',
